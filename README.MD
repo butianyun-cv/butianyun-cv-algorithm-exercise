@@ -301,8 +301,8 @@ A系列包括了14大技术主题，70个应用实践，包括可运行程序、
 | 45 | 数据处理 | 数据集抽取软件（VOC） | butianyun_cv_dataset_voc_extractor.exe |
 | 46 | 数据处理 | 目标检测数据集检测软件（VOC） | butianyun_cv_dataset_detector_voc_od.exe |
 | 47 | 网络训练 | 目标检测验证软件（YOLO） | butianyun_yolo_object_detection_verify.exe |
-| 48 | 网络训练 | 目标检测训练测试预测软件（YOLO） | butianyun_yolo_object_detection_train.exe |
-| 49 | 网络训练 | 目标检测全新训练软件（YOLO） | butianyun_yolo_object_detection_train.exe |
+| 48 | 网络训练 | 目标检测训练软件（YOLO） | butianyun_yolo_object_detection_train.exe |
+| 49 | 网络训练 | 目标检测测试软件（YOLO） | butianyun_yolo_object_detection_test.exe |
 | 50 | 网络训练 | 目标检测恢复训练软件（YOLO） | butianyun_yolo_object_detection_retrain.exe |
 | 51 | 模型部署 | 模型转换软件（YOLO->ONNX） | butianyun_yolo_object_detection_convert_yolo_to_onnx.exe |
 | 52 | 模型部署 | 图像目标检测软件（ONNX_PYTHON） | butianyun_yolo_object_detection_img_python.exe |
