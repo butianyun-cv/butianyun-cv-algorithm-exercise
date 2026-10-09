@@ -303,7 +303,7 @@ A系列包括了14大技术主题，70个应用实践，包括可运行程序、
 | 47 | 网络训练 | 目标检测验证软件（YOLO） | butianyun_yolo_object_detection_verify.exe |
 | 48 | 网络训练 | 目标检测训练测试预测软件（YOLO） | butianyun_yolo_object_detection_train.exe |
 | 49 | 网络训练 | 目标检测全新训练软件（YOLO） | butianyun_yolo_object_detection_train.exe |
-| 50 | 网络训练 | 目标检测恢复训练软件（YOLO） | butianyun_yolo_object_detection_retrainexe |
+| 50 | 网络训练 | 目标检测恢复训练软件（YOLO） | butianyun_yolo_object_detection_retrain.exe |
 | 51 | 模型部署 | 模型转换软件（YOLO->ONNX） | butianyun_yolo_object_detection_convert_yolo_to_onnx.exe |
 | 52 | 模型部署 | 图像目标检测软件（ONNX_PYTHON） | butianyun_yolo_object_detection_img_python.exe |
 | 53 | 模型部署 | 视频目标检测软件（ONNX_PYTHON） | butianyun_yolo_object_detection_video_python.exe |
