@@ -252,78 +252,79 @@
 ## 计算机视觉技术实践A系列应用实践
 A系列包括了14大技术主题，70个应用实践，包括可运行程序、操作手册。A系列应用实践用多种基于Python、C++的开源框架实现。
 
-|编号|实践类型|实践名称|实践程序|
-|----|----|----|----|
-|01|01 图像处理|照片全景图拼接软件 OPENCV|butianyun_cv_full_scene.exe|
-|02|01 图像处理|人像抠图软件 OPENCV|butianyun_cv_person_contour.exe|
-|03|01 图像处理|照片美化软件 OPENCV|butianyun_cv_photo_beautify.exe|
-|04|02 图像分类|手写数字识别软件 PYTORCH|butianyun_yolo_classification.exe|
-|05|02 图像分类|手写数字识别软件 PYTORCH|butianyun_yolo_classification_from_scratch.exe|
-|06|02 图像分类|手写数字识别软件 SCRATCH|butianyun_yolo_classification_from_scratch_exe.exe|
-|07|02 图像分类|图像分类软件 CIFA|butianyun_yolo_classification_cifa.exe|
-|08|03 目标检测|猫狗识别目标检测软件|butianyun_yolo_cat_detection.exe|
-|09|03 目标检测|视频目标检测软件 YOLO|butianyun_yolo_object_detection_video.exe|
-|10|03 目标检测|目标检测预演软件 YOLO|butianyun_yolo_object_detection_predict.exe|
-|11|03 目标检测|水果目标检测软件 YOLO|butianyun_yolo_fruit_object_detection.exe|
-|12|03 目标检测|水果种类识别软件 YOLOYOLO|butianyun_yolo_fruits_detect_img.exe|
-|13|03 目标检测|目标检测训练测试调试软件 PYTORCH|butianyun_yolo_object_detection_main.exe|
-|14|04 图像分割|图像分割实例软件 YOLO|butianyun_yolo_instance_segmentation_video.exe|
-|15|04 图像分割|图像分割实例软件 YOLO|butianyun_yolo_instance_segmentation_main.exe|
-|16|04 图像分割|图像分割实例软件 YOLO|butianyun_yolo_instance_segmentation_img.exe|
-|17|04 图像分割|裂缝检测图像分割实例软件|butianyun_crack_seg_detector.exe|
-|18|05 姿态检测|人体姿态估计软件 YOLO|butianyun_yolo_pull_up_detection.exe|
-|19|05 姿态检测|视频姿态检测软件 YOLO|butianyun_cv_pose_video_detection.exe|
-|20|05 姿态检测|图像姿态检测软件 YOLO|butianyun_yolo_pose_detection_img.exe|
-|21|06 面部识别|人脸录入识别软件 OPENCV_HAAR|butianyun_face_recognition_opencv_haar.exe|
-|22|06 面部识别|人脸识别软件 OPENCV_DNN|butianyun_face_recognition_opencv_dnn.exe|
-|23|06 面部识别|人脸图片识别 DEEPFACE|butianyun_face_recognition_deepface.exe|
-|24|06 面部识别|图片表情识别 DEEPFACE|butianyun_emotion_recognition_deepface.exe|
-|25|06 面部识别|图片表情部分软件 DEEPFACE|butianyun_face_recognition_img_deepface.exe|
-|26|07 面部识别|人脸检测软件 OPENCV_DLIB_DEEPFACE|butianyun_face_detector.exe|
-|27|08 手部跟踪|目标跟踪软件 YOLO|butianyun_yolo_track.exe|
-|28|08 手势识别|手势识别软件 OPENCV|butianyun_gesture_recognition_video_opencv.exe|
-|29|08 手势识别|视频手势识别 OPENCV|butianyun_gesture_recognition_video_opencv.exe|
-|30|08 手势识别|手势识别 YOLO|butianyun_gesture_recognition_video_yolo.exe|
-|31|09 可视化|热力图可视化软件 YOLO|butianyun_yolo_heatmap.exe|
-|32|09 可视化|热力图可视化软件 YOLO|butianyun_yolo_heatman_main.exe|
-|33|09 可视化|卷积网络结构可视化软件 YOLO|butianyun_yolo_cnn_network_structure_yolo.exe|
-|34|09 可视化|模型网络结构可视化软件 YOLO|butianyun_yolo_model_network_structure_yolo.exe|
-|35|09 可视化|模型网络结构可视化软件 PYTORCH|butianyun_yolo_model_network_structure_pytorch.exe|
-|36|09 可视化|模型网络结构可视化软件 ONNX|butianyun_yolo_model_network_structure_onnx.exe|
-|37|09 可视化|模型数据产器可视化软件 PYTORCH|butianyun_model_generator_pytorch.exe|
-|38|09 可视化|模型数据产器可视化软件 PYTORCH|butyun_yolo_get_parameter_main.exe|
-|39|09 可视化|模型数据产器可视化软件 PYTORCH|butianyun_yolo_get_parameter_main_pytorch.exe|
-|40|11 数据增强|数据标注软件 JSON|butianyun_data_augmentation_gui.exe|
-|41|11 数据增强|数据增强软件 PYTORCH|butianyun_data_augmentation_gui.exe|
-|42|11 数据增强|数据增强软件 CONSOLE|butianyun_data_augmentation_console.exe|
-|43|12 数据处理|数据集提取软件 fMNIST|butianyun_mnist_extractor.exe|
-|44|12 数据处理|数据集采集软件 VOC|butianyun_cv_dataset_voc_ext.exe|
-|45|12 数据处理|数据集采集软件 VOC|butianyun_cv_dataset_collector_voc.exe|
-|46|12 数据处理|数据集处理软件 VOC|butianyun_cv_dataset_collector_voc_exe.exe|
-|47|13 网络训练|目标检测预演软件 YOLO|butianyun_yolo_object_detection_verify.exe|
-|48|13 网络训练|目标检测测试软件 YOLO|butianyun_yolo_object_detection_train.exe|
-|49|13 网络训练|目标检测训练测试复现软件 YOLO|butianyun_yolo_object_detection_retrain_exe.exe|
-|50|13 网络训练|目标检测训练测试复现软件 YOLO|butianyun_yolo_object_detection_train_exe.exe|
-|51|14 模型部署|模型转换软件 PYTOLO-ONNX|butianyun_yolo_object_detection_convert_yolo_to_onnx.exe|
-|52|14 模型部署|图像目标检测软件 ONNX_PYTHON|butianyun_yolo_object_detection_yolo_python.exe|
-|53|14 模型部署|视频目标检测软件 ONNX_PYTHON|butianyun_yolo_object_detection_video_python.exe|
-|54|14 模型部署|语义分割软件 ONNX_PYTHON|butianyun_semantic_segmentation_onnx_detection_python.exe|
-|55|14 模型部署|图像目标检测软件 ONNX_CPP|butianyun_onnx_obj_img_cpp.exe|
-|56|14 模型部署|视频目标检测软件 ONNX_CPP|butianyun_onnx_obj_video_cpp.exe|
-|57|14 模型部署|图像语义分割软件 ONNX_CPP|butianyun_onnx_semantic_img_cpp.exe|
-|58|14 模型部署|视频语义分割软件 ONNX_CPP|butianyun_onnx_semantic_video_cpp.exe|
-|59|14 模型部署|图像语义分割软件 OPENCV_CPP|butianyun_opencv_onnx_semantic_img_cpp.exe|
-|60|14 模型部署|视频语义分割软件 OPENCV_CPP|butianyun_opencv_onnx_semantic_video_cpp.exe|
-|61|14 模型部署|模型转换软件 PYTOLO-OpenVINO|butianyun_object_detection_convert_yolo_to_openvino.exe|
-|62|14 模型部署|图像目标检测软件 OpenVINO_PYTHON|butianyun_yolo_object_detection_img_python.exe|
-|63|14 模型部署|视频目标检测软件 OpenVINO_PYTHON|butianyun_semantic_segmentation_openvino_detection_python.exe|
-|64|14 模型部署|视频目标检测软件 OPENCV_PYTHON|butianyun_yolo_opencv_detection_video_python.exe|
-|65|14 模型部署|图像目标检测软件 OPENCV_CPP|butianyun_yolo_opencv_detection_img_cpp.exe|
-|66|14 模型部署|视频目标检测软件 OPENCV_CPP|butianyun_yolo_opencv_detection_video_cpp.exe|
-|67|14 模型部署|图像语义分割软件 OPENCV_CPP|butianyun_opencv_semantic_img_cpp.exe|
-|68|14 模型部署|视频语义分割软件 OPENCV_CPP|butianyun_opencv_semantic_video_cpp.exe|
-|69|14 模型部署|图像语义分割软件 OPENCV_CPP|butianyun_opencv_img_segmentation_img_cpp.exe|
-|70|14 模型部署|视频语义分割软件 OPENCV_CPP|butianyun_opencv_img_segmentation_video_cpp.exe|
+| 编号 | 实践类型 | 实践名称 | 实践程序 |
+| ---- | -------- | -------- | -------- |
+| 01 | 图像处理 | 照片全景图拼接软件（OPENCV） | butianyun_cv_full_scene.exe |
+| 02 | 图像处理 | 人像抠图软件（OPENCV） | butianyun_cv_person_contour.exe |
+| 03 | 图像处理 | 照片美化软件（OPENCV） | butianyun_cv_photo_beautify.exe |
+| 04 | 图像分类 | 图像分类软件（YOLO） | butianyun_yolo_classification.exe |
+| 05 | 图像分类 | 手写数字识别软件（PYTORCH） | butianyun_cv_digit_recognization_pytorch.exe |
+| 06 | 图像分类 | 手写数字识别软件（SCRATCH） | butianyun_cv_digit_recognization_from_scratch.exe |
+| 07 | 图像分类 | 图像分类软件（CIFA） | butianyun_yolo_classification_cifa.exe |
+| 08 | 目标检测 | 猫狗识别图像分类软件（PYTORCH） | butianyun_yolo_cat_dog.exe |
+| 09 | 目标检测 | 视频目标检测软件（YOLO） | butianyun_yolo_object_detection_video.exe |
+| 10 | 目标检测 | 目标检测预测软件（YOLO） | butianyun_yolo_object_detection_predict.exe |
+| 11 | 目标检测 | 图像目标检测软件（YOLO） | butianyun_yolo_object_detection_img.exe |
+| 12 | 目标检测 | 水果种类目标检测软件（YOLO） | butianyun_yolo_fruits_detector.exe |
+| 13 | 目标检测 | 目标检测训练测试预测软件（PYTORCH） | butianyun_yolo_object_detection_main.exe |
+| 14 | 图像分割 | 图像背景清除图像实例分割软件（YOLO） | butianyun_background_removal.exe |
+| 15 | 图像分割 | 视频实例分割软件（YOLO） | butianyun_yolo_instance_segmentation_video.exe |
+| 16 | 图像分割 | 图像实例分割软件（YOLO） | butianyun_yolo_instance_segmentation_img.exe |
+| 17 | 图像分割 | 裂缝检测图像分割实例软件 | butianyun_crack_seg_detector.exe |
+| 18 | 姿态检测 | 引体向上计数软件（YOLO） | butianyun_yolo_pull_up_detection.exe |
+| 19 | 姿态检测 | 视频姿态检测软件（YOLO） | butianyun_yolo_pose_detection_video.exe |
+| 20 | 姿态检测 | 图像姿态检测软件（YOLO） | butianyun_yolo_pose_detection_img.exe |
+| 21 | 面部识别 | 图像人脸识别（OPENCV_HAAR） | butianyun_face_recognition_opencv_haar.exe |
+| 22 | 面部识别 | 图像人脸识别（OPENCV_DNN） | butianyun_face_recognition_opencv_dnn.exe |
+| 23 | 面部识别 | 图像人脸识别（DLIB） | butianyun_face_recognition_dlib.exe |
+| 24 | 面部识别 | 图像人脸识别（DEEPFACE） | butianyun_face_recognition_deepface.exe |
+| 25 | 面部识别 | 图片表情识别（DEEPFACE） | butianyun_emotion_recognition_deepface.exe |
+| 26 | 面部识别 | 图片脸部分析（DEEPFACE） | butianyun_face_analysis_img_deepface.exe |
+| 27 | 面部识别 | 人脸检测器软件（OPENCV_DLIB_DEEPFACE） | butianyun_face_detector.exe |
+| 28 | 目标跟踪 | 目标跟踪软件（YOLO） | butianyun_object_track.exe |
+| 29 | 手势识别 | 视频手势识别（OPENCV） | butianyun_gesture_recognition_video_opencv.exe |
+| 30 | 手势识别 | 视频手势识别（CNN） | butianyun_gesture_recognition_video_cnn.exe |
+| 31 | 手势识别 | 图像手势识别（OPENCV） | butianyun_gesture_recognition_img_opencv.exe |
+| 32 | 手势识别 | 图像手势识别（CNN） | butianyun_gesture_recognition_img_cnn.exe |
+| 33 | 可视化 | 热力图可视化软件（YOLO） | butianyun_yolo_heatmap.exe |
+| 34 | 可视化 | 卷积网络结构可视化软件（YOLO） | butianyun_yolo_cnn_cam.exe |
+| 35 | 可视化 | 模型网络结构可视化软件（YOLO） | butianyun_yolo_model_network_structure_yolo.exe |
+| 36 | 可视化 | 模型网络结构可视化软件（PYTORCH） | butianyun_model_network_structure_pytorch.exe |
+| 37 | 可视化 | 模型网络结构可视化软件（ONNX） | butianyun_model_network_structure_onnx.exe |
+| 38 | 可视化 | 模型数据产生器软件（PYTORCH） | butianyun_model_generator_pytorch.exe |
+| 39 | 可视化 | 预训练模型数据获取软件（PYTORCH） | butianyun_cv_get_pretrained_models.exe |
+| 40 | 数据标注 | 数据标注软件（WebAPI） | butianyun_data_label_web_api.exe |
+| 41 | 数据标注 | 数据标注软件（WebUI） | butianyun_data_label_ui_web.exe |
+| 42 | 数据增强 | 数据增强软件（GUI） | butianyun_data_augmentation_gui.exe |
+| 43 | 数据增强 | 数据增强软件（CONSOLE） | butianyun_data_augmentation_console.exe |
+| 44 | 数据处理 | 数据集抽取软件（MNIST） | butianyun_mnist_extractor.exe |
+| 45 | 数据处理 | 数据集抽取软件（VOC） | butianyun_cv_dataset_voc_extractor.exe |
+| 46 | 数据处理 | 目标检测数据集检测软件（VOC） | butianyun_cv_dataset_detector_voc_od.exe |
+| 47 | 网络训练 | 目标检测验证软件（YOLO） | butianyun_yolo_object_detection_verify.exe |
+| 48 | 网络训练 | 目标检测训练测试预测软件（YOLO） | butianyun_yolo_object_detection_train.exe |
+| 49 | 网络训练 | 目标检测全新训练软件（YOLO） | butianyun_yolo_object_detection_retrain.exe |
+| 50 | 网络训练 | 目标检测恢复训练软件（YOLO） | butianyun_yolo_object_detection_train_exe.exe |
+| 51 | 模型部署 | 模型转换软件（YOLO->ONNX） | butianyun_yolo_object_detection_convert_yolo_to_onnx.exe |
+| 52 | 模型部署 | 图像目标检测软件（ONNX_PYTHON） | butianyun_yolo_object_detection_img_python.exe |
+| 53 | 模型部署 | 视频目标检测软件（ONNX_PYTHON） | butianyun_yolo_object_detection_video_python.exe |
+| 54 | 模型部署 | 语义分割软件（ONNX_PYTHON） | butianyun_semantic_segmentation_onnx_detection_python.exe |
+| 55 | 模型部署 | 图像目标检测软件（ONNX_CPP） | butianyun_onnx_od_img_cpp.exe |
+| 56 | 模型部署 | 视频目标检测软件（ONNX_CPP） | butianyun_onnx_od_video_cpp.exe |
+| 57 | 模型部署 | 图像实例分割软件（ONNX_CPP） | butianyun_onnx_seg_instance_img_cpp.exe |
+| 58 | 模型部署 | 视频实例分割软件（ONNX_CPP） | butianyun_onnx_seg_instance_video_cpp.exe |
+| 59 | 模型部署 | 图像语义分割软件（ONNX_CPP） | butianyun_onnx_semantic_img_cpp.exe |
+| 60 | 模型部署 | 视频语义分割软件（ONNX_CPP） | butianyun_onnx_semantic_video_cpp.exe |
+| 61 | 模型部署 | 模型转换软件（YOLO->OpenVINO） | butianyun_object_detection_convertor_yolo_to_openvino.exe |
+| 62 | 模型部署 | 图像目标检测软件（OpenVINO_PYTHON） | butianyun_yolo_openvino_detection_img_python.exe |
+| 63 | 模型部署 | 视频语义分割软件（OpenVINO_PYTHON） | butianyun_semantic_segmentation_openvino_detection_python.exe |
+| 64 | 模型部署 | 视频目标检测软件（OPENVINO_PYTHON） | butianyun_yolo_openvino_detection_video_python.exe |
+| 65 | 模型部署 | 图像目标检测软件（OPENVINO_CPP） | butianyun_yolo_openvino_detection_od_img_cpp.exe |
+| 66 | 模型部署 | 视频目标检测软件（OPENVINO_CPP） | butianyun_yolo_openvino_detection_od_video_cpp.exe |
+| 67 | 模型部署 | 图像实例分割软件（OPENVINO_CPP） | butianyun_openvino_seg_instance_img_cpp.exe |
+| 68 | 模型部署 | 视频实例分割软件（OPENVINO_CPP） | butianyun_openvino_seg_instance_video_cpp.exe |
+| 69 | 模型部署 | 图像语义分割软件（OPENVINO_CPP） | butianyun_openvino_img_seg_semantic_img_cpp.exe |
+| 70 | 模型部署 | 视频语义分割软件（OPENVINO_CPP） | butianyun_openvino_img_seg_semantic_video_cpp.exe |
+
 
 ## 计算机视觉技术实践B系列传统算法
 B系列包括了100个传统算法的概念+原理+实现源码以及运行效果。B系列算法的算法相关的核心实现是用Python API实现，涉及图像读写等操作用OpenCV API实现。
